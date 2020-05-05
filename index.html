@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HamroDairy | Home Milk Delivery Service & More.</title>
+    <link rel="stylesheet" href="hamrodairy.css">
+    <link rel="icon" type="image/gif/png" href="img/title.png">
+    <script src="js/hamrodairy.js"></script>
+</head>
+<body onbeforeunload="return confirmMessage()">
+    
+<!-- frontpage setion -->
+        <div class="container">
+            <slider class="sliderPart">
+                <slide><p><strong> Welcome to HAMRODAIRY</strong> <br> <strong style="font-size: 15px;">Now get pure milk delivered right to your door step.</strong> </p></slide>
+                <slide><p style="padding-top: 8%;"> <strong>1<sup>st</sup> time in Your Place. </strong> </p></slide>
+                <slide><p><strong>Our customers, Our priority.</strong> </p></slide>
+                <slide><p><strong>Eat Fresh, Live Fresh</strong> </p></slide>
+            </slider>
+            
+        <div class="frontpage" id="frontpage">
+            <div class="featurepart">
+                <h1 id="feature-heading">Features</h1>
+                <ul class="featurelist">
+                    <li>
+                        <div class="icon">
+                            <img src="img/milk.png" width="60"  alt="Pure!!">
+                            <h1>Eat Pure, Live Pure</h1>
+                            <p>Our products are fresh <br> direct from farms.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="img/smile.png" width="60" alt="Smle">
+                            <h1>Worry Free</h1>
+                            <p>Now order easily and <br> say bye to early grocery hunting. </p>
+
+                        </div> 
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="img/free-delivery.png" width="60" alt="Delivery!!">
+                       
+                            <h1>Schedule Delivery</h1>
+                            <p>Now get the goods delivered <br> direct to your doorstep free of cost.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="img/order.png" width="60" alt="order!!">
+                            <h1>Trustworthy</h1>
+                            <p>Live all the worries to us and <br> we will endure it for you.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="newusersection">
+                <img src="img/cow.png" alt="cow">
+                <h1>
+                    Hey, Are You New to HamroDairy?
+                </h1>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </div>
+<!-- frontPage End -->
+
+<!-- productPage section -->
+        <div class="productpage" id="productpage">
+            <h1>Our Products</h1>
+            <ul class="productsection">
+                <li class="productpicleft">
+                    <img src="img/d1.png" alt="milk">
+                    <div class="productdiscription">
+                    <h3>Product 1</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                        it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </li>
+                <li class="productpicright">
+                        <img src="img/d2.png" alt="milk">
+                        <div class="productdiscription">
+                        <h3>Product 2</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                            it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </li>
+                    <li class="productpicleft">
+                            <img src="img/d3.png" alt="milk">
+                            <div class="productdiscription">
+                            <h3>Product 1</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                                it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                        </li>
+            </ul>
+            <ul class="offersection">
+                <h1>Active offers</h1>
+                <li class="offerpart">
+                    <h2>Offer Head</h2>
+                    <p>Offer-code</p>
+                </li>
+                <li class="offerpart">
+                        <h2>Offer Head</h2>
+                        <p>Offer-code</p>
+                </li>
+                <li class="offerpart">
+                            <h2>Offer Head</h2>
+                            <p>Offer-code</p>
+                </li>
+            </ul>
+
+        </div>
+<!-- productspage end -->
+
+<!-- signup page section-->
+<div class="signinsection" id="signinsection">
+<div class="olduser">
+    <h1> LoginIn</h1>
+    <form action="" class="loginform">
+        <label for="Email">Email :</label>
+        <br>
+        <input type="email" name="Email" id="Email" placeholder="Eg.-abc@xyz.com" required>
+        <br>
+        <label for="password">Password :</label>
+        <br>
+        <input type="password" placeholder="Enter your Password" id="passwordin" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+        required>
+        <br>
+        <input type="submit" id="submitin" style="background-color: cadetblue; cursor: pointer;" >
+    </form>
+    <p>or</p>
+    <a href="home">Login via <img src="img/google.png" alt="Google" width="30" style="position: relative; top: 10px; ">
+    <img src="img/facebook.png" alt="facebook" width="30" style="position: relative; top: 8px; left: 5px;"></a>
+</div>
+<div class="newuser">
+    <h1>NewUser</h1>
+    
+    <form action="" class="signupform" >
+        <label for="name">Full Name :</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Enter your Full Name" required onkeyup="upper()">
+        <br>
+        <label for="email">Email :</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        <br>
+        <label for="password">Password :</label>
+        <br>
+        <input type="text" name="password" placeholder="Password" id="passwordup" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" 
+        required onchange="validatePassword()">
+        <br>
+        <label for="retypepassword">Re-type Password :</label>
+        <br>
+        <input type="text" name="retypepassword" id="retypepasswordup" placeholder="Confirm Password" required
+          onkeyup="validatePassword()">
+        <br>
+        <input type="submit" id="submitup" style="cursor: pointer; background-color: cadetblue;" disabled>
+    </form>
+    <p>or</p>
+    <a href="home">Signup using <img src="img/google.png" alt="Google" width="30" style="position: relative; top: 8px; ">
+        <img src="img/facebook.png" alt="facebook" width="30" style="position: relative; top: 8px; left: 5px;">
+        </a>
+    
+</div>
+</div>
+<!-- signup page end -->
+
+<!-- footer section -->
+            <div class="endpart" id="endpart">
+                <h2>We will be happy to help you.</h2>
+                <p>Phone:1234567890</p>
+                <div class="endpartsocial">
+                    <a href="instagram"><img src="img/instagram.png" width="60" alt="instagram"></a>
+                    <a href="facebook"><img src="img/facebook.png" width="60" alt="facebook"></a>
+                    <a href="twitter"><img src="img/twitter.png" width="60" alt="twitter"></a>
+
+                </div>
+                <div class="endpartnav">
+                    <a href="javascript:void(0)"onclick="product()"> Products</a>
+                    <a href="javascript:void(0)" onclick="product()">Offers</a>
+                    <a href="javascript:void(0)" onclick="OpenNav()">About Us</a>
+                </div>
+                <h2> ©2020 HamroDairy.</h2>
+                <p>All rights reserved.</p> 
+
+            </div>
+<!-- Endpart End -->
+
+<!-- Top Navigation Sectoin -->
+            <div class="topnav">
+                <a class="active" href="index.html"><img src="img/title.png" alt="titleimg" style="height: 16px; width: 16px;"> HAMRODAIRY</a>
+                <a href="javascript:void(0)" onclick="product()" >Products</a>
+                <a href="javascript:void(0)" onclick="product()">Offers</a>
+                <a href="javascript:void(0)" onclick="openNav()">Who We Are?</a>
+                <a href="javascript:void(0)" onclick="openNav()">Contact Us</a>
+                <a href="javascript:void(0)" onclick="signin()" class="signin">New User?</a>
+                <a href="javascript:void(0)" onclick="signin()" class="signin">LoginIn</a> 
+                <a href="javascript:void(0)" onclick="displayNav()"  class="mobiledropdown">&#9776</a>
+            </div>
+            <!-- mobile responsive top navigation -->
+            <div class="mobiletopnav" id="mobilenav">
+                <a href="javascript:void(0)" onclick="product()" >Products</a>
+                <a href="javascript:void(0)" onclick="product()">Offers</a>
+                <a href="javascript:void(0)" onclick="openNav()">Who We Are?</a>
+                <a href="javascript:void(0)" onclick="openNav()">Contact Us</a>
+                <a href="javascript:void(0)" onclick="signin()" class="signin">New User?</a>
+                <a href="javascript:void(0)" onclick="signin()" class="signin">LoginIn</a> 
+                    <a href="#close" onclick="closemobilenav()">&times</a>
+            </div>
+<!-- Top Nav End -->
+            
+<!-- About part  Side nav style section-->
+            <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <h1 class="sideaboutheading">Hamrodairy</h1>
+                    <a href="about">
+                      <h3>Hi</h3>
+                      <h5>I am Yogesh chaudhary <br>The CEO <br>HamroDairy pvt. ltd.</h5>
+                      The Lambda function associated with the CloudFront distribution is invalid or doesn't have the required permissions. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.
+                      If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.
+                    </a>
+                    <p class="contactbottom">Contact Us at: 1234567890</p>
+                </div>
+<!-- About  End -->
+                
+    </div>
+     <!--container end  -->
+</body>
+</html>
